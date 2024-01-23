@@ -1,0 +1,1 @@
+# minio-operator-5.0.11
