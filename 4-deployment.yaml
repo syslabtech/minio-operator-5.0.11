@@ -73,9 +73,9 @@ spec:
             runAsNonRoot: true
           env:
             - name: MINIO_CONSOLE_TLS_ENABLE
-              value: "on"
+              value: "off"
             - name: OPERATOR_STS_ENABLED
-              value: "on"
+              value: "off"
       affinity:
         podAntiAffinity:
           requiredDuringSchedulingIgnoredDuringExecution:
